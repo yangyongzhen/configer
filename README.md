@@ -2,6 +2,19 @@
 a simeple Configuration file operation class,replace sharepreferences for android In some cases ,easy to use
 
 # how to use
+Add it in your root build.gradle at the end of repositories:
+
+	allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+Step 2. Add the dependency
+
+	dependencies {
+	        implementation 'com.github.yangyongzhen:configer:v1.0'
+	}
 ```
 package com.yangyongzhen.demo;
  
